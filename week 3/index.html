@@ -1,0 +1,101 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elemen Semantik</title>
+</head>
+<body>
+    <header>
+        <h1>RIZKI</h1>
+        <!--navbar-->
+        <nav>
+            <ul type="none">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="Artikel.html">Artikel</a></li>
+                <li><a href="#contactme">Kontak Saya</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="lagu">
+        <p>Daftar <span class="highlight">Lagu</span></p>
+        <ol>
+            <li>Ghosts - Scavenger Hunt</li>
+            <li>So Far Away - Martin Garrix &amp; David Guetta</li>
+        </ol>
+        <audio controls
+        src="Ghosts (Remix) (feat. Paperwhite).mp3"></audio>
+    </div>
+
+    <div class="video">
+        <video controls autoplay loop width="600"
+        src="cyberpunk-2077.1920x1080.mp4"></video>
+    </div>
+
+    <div id="contactme">
+        <h3>Kontak Saya</h3>
+        <form action="">
+            <table border="0">
+                <tr>
+                    <td>
+                        <label for="nama">Nama Lengkap</label>
+                    </td>
+                    <td>
+                        <input type="text" name="nama" id="nama" required placeholder="Masukkan Nama Lengkap">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="nim">NIM</label>
+                    </td>
+                    <td>
+                        <input type="number" name="nim" id="nim" required placeholder="Masukkan NIM">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="jeniskelamin">Jenis Kelamin</label>
+                    </td>
+                    <td>
+                        <input type="radio" name="jeniskelamin" id="pria" value="Pria" required>pria
+                        <br><input type="radio" name="jeniskelamin" id="wanita" value="Wanita" required>wanita
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="hobi">Hobi</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" name="hobi" id="musik" value="Musik">Musik
+                        <input type="checkbox" name="hobi" id="game" value="Game">Game
+                        <input type="checkbox" name="hobi" id="membaca" value="Membaca">Membaca
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="prodi">Program Studi</label>
+                    </td>
+                    <td>
+                        <select name="prodi" id="prodi">
+                            <option value="Informatika" selected>Informatika</option>
+                            <option value="Sistem Informasi">Sistem Informasi</option>
+                            <option value="Teknik Komputer">Teknik Komputer</option>
+                            <option value="Teknologi Informasi">Teknologi Informasi</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <input type="submit" name="submit" value="submit">
+            <input type="reset" name="reset" value="reset">
+        </form>
+    </div>
+
+    <footer>
+        <p>Copyright &copy; 2025 Rizki</p>
+        <p>
+            <a href="/privacy">Kebijakan Privasi</a> |
+            <a href="/terms">Syarat & Ketentuan</a>
+        </p>
+    </footer>
+    
+</body>
+</html>
