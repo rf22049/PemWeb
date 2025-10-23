@@ -1,0 +1,175 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background: #333;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li {
+    margin: 0;
+}
+nav ul li a {
+    display: block;
+    padding: 12px 20px;
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background: #575757;
+}
+
+main {
+    padding: 20px;
+    background: white;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+input[type="text"], textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background: #45a049;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+caption {
+    font-weight: bold;
+    margin: 10px;
+}
+th {
+    background: #4CAF50;
+    color: white;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Personal Portfolio</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="page.html">Bagian Media</a></li>
+        </ul>
+    </nav>
+
+    <audio controls autoplay loop src="Alone.mp3"></audio>
+
+    <main>
+        <section>
+            <h2>Skills:</h2>
+            <ul>
+                <li>Web Development</li>
+                <li>Graphic Design</li>
+                <li>SEO Optimization</li>
+            </ul>
+        </section>
+    </main>
+
+    <div>
+        <h2>Berikan Umpan Balik</h2>
+        <form action="#" method="post">
+            <label for="name">Nama:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="comment">Feedback:</label><br>
+            <textarea id="comment" name="comment" rows="4" cols="50"></textarea><br><br>
+            <input type="submit" value="Kirim">
+        </form>
+    </div>
+
+    <table border="1">
+        <caption>Rincian Website</caption>
+        <tr>
+            <th>Fitur</th>
+            <th>Deskripsi</th>
+        </tr>
+        <tr>
+            <td>Header</td>
+            <td>Menampilkan judul website</td>
+        </tr>
+        <tr>
+            <td>Navigation</td>
+            <td>Link ke bagian lain dari website</td>
+        </tr>
+        <tr>
+            <td>Audio</td>
+            <td>Memutar musik latar secara otomatis</td>
+        </tr>
+        <tr>
+            <td>Skills Section</td>
+            <td>Menampilkan daftar keterampilan</td>
+        </tr>
+    </table>
+
+    <footer>
+        <p>all rights reserved &copy; 2025</p>
+    </footer>
+</body>
+</html>
