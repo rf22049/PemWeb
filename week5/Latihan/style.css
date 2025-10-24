@@ -1,0 +1,33 @@
+body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.page-header {
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.main-article {
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.page-footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+#gambar-artikel {
+  float: left;
+  margin: 0 15px 10px 0;
+  max-width: 150px;
+  height: auto;
+}
