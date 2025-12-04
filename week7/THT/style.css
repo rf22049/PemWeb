@@ -1,0 +1,72 @@
+.card{
+    width: 300px;
+    padding: 20px;
+    margin: 15px auto;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: navy;
+}
+
+#contact-me {
+    max-width: 600px;
+    margin: 20px auto 20px auto; 
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], 
+input[type="email"], 
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+    transition: border-color 0.3s;
+}
+
+#submit-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.error-text-content {
+    color: #ff0000; 
+    font-size: 0.9em;
+    margin: 5px 0 0 0;
+    padding: 0;
+}
+
+.error-text {
+    min-height: 20px; 
+}
+
+#success-message {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.success-message-content {
+    color: #155724;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 0;
+}
